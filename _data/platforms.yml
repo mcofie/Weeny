@@ -16,6 +16,12 @@
   color: 'text-green-700'
   version: '0.1.0'
 
+- name: CSS
+  message: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  url: 'https://github.com/mcofie/weeny-vue-ui-kit'
+  color: 'text-red-700'
+  version: '0.1.0'
+
 - name: Flutter
   message: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   url: 'https://github.com/mcofie/weeny-flutter-ui-kit'

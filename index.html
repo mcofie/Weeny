@@ -3,11 +3,11 @@ title: Weeny Design System
 layout: default
 ---
 <header class="hero w-full">
-    <div class="flex mt-10 flex-row auto-rows-max justify-center">
-        <div class="md:w-1/4 sm:w-full lg:w-9/12 xl:w-8/12 2xl:w-1/4">
-            <h1 class="text-center font-bold md:text-5xl lg:text-9xl">
+    <div class="flex mt-16 flex-row auto-rows-max justify-center">
+        <div class="md:w-3/4 sm:w-full lg:w-9/12 xl:w-8/12 2xl:w-1/4">
+            <h1 class="text-center font-bold text-7xl md:text-7xl sm:text-3xl lg:text-9xl">
                 Weeny<sup class="">v1</sup></h1>
-            <p class="text-2xl mt-10">
+            <p class="text-2xl mx-3 sm:text-left md:text-center xl:text-center lg:text-center md:text-center sm:mx-3 mt-10">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                 aliquip ex ea commodo consequat.
@@ -21,9 +21,9 @@ layout: default
     <h4 class="text-4xl my-4 text-center font-bold">Platforms</h4>
 
     <div class="flex mt-10 flex-row auto-rows-max justify-center">
-        <div class="md:w-1/4 sm:w-full lg:w-9/12 xl:w-8/12 2xl:w-1/4">
+        <div class="md:w-3/4 sm:w-full lg:w-9/12 xl:w-8/12 2xl:w-1/4">
             {% for platform in site.data.platforms %}
-            <div class="my-10">
+            <div class="my-10 mx-4">
                 <span>Stable v{{platform.version}}</span>
                 <div>
                     <a href="{{platform.url}}">
