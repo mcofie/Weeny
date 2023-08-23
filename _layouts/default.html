@@ -1,27 +1,7 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        clifford: '#da373d',
-                    }
-                }
-            }
-        }
-    </script>
-</head>
-<body>
-<section>
+{% include header.html %}
+<main class="container">
+    <!--    {{ page.title }}-->
     {{ content }}
-</section>
-<footer>
-</footer>
-</body>
-</html>
+</main>
+{% include footer.html %}
+
