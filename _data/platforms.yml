@@ -1,0 +1,23 @@
+- name: Figma
+  message: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  url: 'https://www.figma.com/file/VzLX0lhpKtugXuA8GDQgpb/Weeny---Multi-platform-Design-System?type=design&t=4zzExxlD0GC46qqw-6'
+  color: 'text-fuchsia-700'
+  version: '1.0.0'
+
+- name: React
+  message: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  url: 'https://github.com/mcofie/weeny-react-ui-kit'
+  color: 'text-blue-700'
+  version: '0.1.0'
+
+- name: Vue
+  message: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  url: 'https://github.com/mcofie/weeny-vue-ui-kit'
+  color: 'text-green-700'
+  version: '0.1.0'
+
+- name: Flutter
+  message: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  url: 'https://github.com/mcofie/weeny-flutter-ui-kit'
+  color: 'text-blue-700'
+  version: '0.1.0'

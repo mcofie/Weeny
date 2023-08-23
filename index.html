@@ -2,23 +2,53 @@
 title: Weeny Design System
 layout: default
 ---
-<section>
-    <div class="w-full">
-        <h1 class="text-green-600 text-center text">Weeny Design System</h1>
+<header class="hero w-full">
+    <div class="flex mt-10 flex-row auto-rows-max justify-center">
+        <div class="md:w-1/4 sm:w-full lg:w-9/12 xl:w-8/12 2xl:w-1/4">
+            <h1 class="text-center font-bold md:text-5xl lg:text-9xl">
+                Weeny<sup class="">v1</sup></h1>
+            <p class="text-2xl mt-10">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat.
+            </p>
+        </div>
     </div>
+</header>
+
+
+<section class="platform w-full">
+    <h4 class="text-4xl my-4 text-center font-bold">Platforms</h4>
+
+    <div class="flex mt-10 flex-row auto-rows-max justify-center">
+        <div class="md:w-1/4 sm:w-full lg:w-9/12 xl:w-8/12 2xl:w-1/4">
+            {% for platform in site.data.platforms %}
+            <div class="my-10">
+                <span>Stable v{{platform.version}}</span>
+                <div>
+                    <a href="{{platform.url}}">
+                        <h3 class="text-4xl font-bold hover:{{platform.color}}">{{platform.name}} <i
+                                class="fa-solid fa-square-arrow-up-right"></i></h3>
+                    </a>
+                </div>
+                <div><p class="text-2xl mt-2">{{platform.message}}</p></div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+
 </section>
 
 
-<section>
-
+<section class="showcase w-full">
+    <h4 class="text-4xl my-4 text-center font-bold">Showcase</h4>
+    <h3 class="text-center my-20 text-2xl text-gray-200">Coming Soon</h3>
 </section>
 
 
-<section>
-
-</section>
-
-
-<section>
+<section class="article w-full text-center font-bold">
+    <h4 class="text-4xl my-4">Notes</h4>
+    <h3 class="text-center my-20 text-2xl text-gray-200">Coming Soon</h3>
 
 </section>

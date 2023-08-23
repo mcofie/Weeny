@@ -1,2 +1,8 @@
 @import "_header.scss";
 @import "_base.scss";
+
+section {
+  width: 100%;
+  float: left;
+  margin: 75px 0;
+}
